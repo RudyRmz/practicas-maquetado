@@ -1,0 +1,105 @@
+h1{
+    color: hotpink;
+}
+
+/* p{
+    color: green;
+}
+
+span{
+    color: green;
+}
+
+div{
+    color: green;
+} */
+
+
+p, span, div {
+    color: green;
+}
+
+.example_container, .kitchen_container{
+    background-color: gray;
+}
+
+.kitchen_discount{
+    color: red;
+}
+
+.kitchen_container > div{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.social-menu_container{
+    margin-top: 20px;
+}
+
+.social-menu_container > .social-menu__button{
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+}
+
+.social-menu__button:hover{
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+}
+
+.social-menu_button--blue:hover{
+    background-color: blue;
+}
+
+.social-menu_button--blue:active{
+    background-color: #fff;
+    color: blue;
+}
+
+.social-menu_button--pink:hover{
+    background-color: hotpink;
+}
+
+.social-menu_button--pink:active{
+    background-color: purple;
+}
+
+.social-menu_button--light-blue:hover{
+    background-color: aqua;
+}
+
+.social-menu_button--light-blue:active{
+    background-color: #fff;
+    color: blue;
+}
+
+.call-action__label+span{
+    color: red;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.call-action__label + .call-action__pointer{
+    color: hotpink;
+    font-size: 24px;
+}
+
+.call-action__pointer ~ button{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.exception__container{
+    background-color: khaki;
+    height: 45px;
+    text-align: center;
+}
+
+.exception__item::after{
+    content: "*Menos Huggies";
+    font-size: 8px;
+    color: gray;
+}
+
+.exception__price::before{
+    content: "$";
+}
