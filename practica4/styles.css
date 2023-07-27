@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    /* background-color: black; */
+    min-height: 100vh;
+    padding: 40px 0;
+    font-weight: bold;
+}
+
+.card__container > *{
+    width: 125px;
+    height: 250px;
+    display: inline-block;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: .7em;
+    color: #fff;
+}
+
+/* .card__pricing-table--blue{
+    background: rgb(141,2,215);
+    background: linear-gradient(90deg, rgba(141,2,215,0.6783088235294117) 0%, rgba(0,200,255,0.5522584033613445) 81%);
+}
+
+.card__pricing-table--orange{
+    background: rgb(141,2,215);
+    background: linear-gradient(90deg, rgba(141,2,215,0.6783088235294117) 0%, rgba(0,200,255,0.5522584033613445) 81%);
+}
+
+.card__pricing-table--green{
+    background: rgb(141,2,215);
+    background: linear-gradient(90deg, rgba(141,2,215,0.6783088235294117) 0%, rgba(0,200,255,0.5522584033613445) 81%);
+} */
