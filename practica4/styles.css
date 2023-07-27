@@ -46,6 +46,11 @@ h1, h2 {
     background: linear-gradient(90deg, rgba(2,86,215,0.6783088235294117) 0%, rgba(0,255,48,0.5522584033613445) 81%);
 }
 
+span{
+    margin: 3px;
+    font-size: 10px;
+}
+
 .card__paragraph{
     margin: 3px;
     font-size: 8px;
@@ -58,14 +63,41 @@ h1, h2 {
     border: none;
     font-size: 8px;
     font-weight: bold;
-    border-radius: 8px;
+    border-radius: 8px 0;
     padding: 8px;
     position: relative;
     top: 31px;
-    left: 42px;
+    left: 38px;
+}
+
+.card__pricing-table:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
 }
 
 .card__button:hover{
-    transform: translate(-60%);
+    /* transform: translate(-60%); */
+    animation-name: desplazamiento;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
 }
+
+@keyframes desplazamiento{
+    100% {
+        border-radius: 8px 8px 0px 0px;
+        width: 100%;
+        left: 0%;
+    }
+
+    card__title-price{
+        0% { transform: rotate(0deg); }
+        25% { transform: rotate(5deg); }
+        50% { transform: rotate(0eg); }
+        75% { transform: rotate(-5deg); }
+        100% { transform: rotate(0deg); }
+    }
+}
+
+
+
 
