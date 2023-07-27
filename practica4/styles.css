@@ -9,6 +9,7 @@ body{
     min-height: 100vh;
     padding: 40px 0;
     font-weight: bold;
+    text-shadow: 1px 1px 1px black;
 }
 
 .card__container > *{
@@ -21,17 +22,21 @@ body{
     color: #fff;
 }
 
-/* .card__pricing-table--blue{
+h1, h2 {
+    text-shadow: 4px 4px 4px black;
+}
+
+.card__pricing-table--blue{
     background: rgb(141,2,215);
     background: linear-gradient(90deg, rgba(141,2,215,0.6783088235294117) 0%, rgba(0,200,255,0.5522584033613445) 81%);
 }
 
 .card__pricing-table--orange{
     background: rgb(141,2,215);
-    background: linear-gradient(90deg, rgba(141,2,215,0.6783088235294117) 0%, rgba(0,200,255,0.5522584033613445) 81%);
+    background: linear-gradient(90deg, rgba(141,2,215,0.6783088235294117) 0%, rgba(255,0,60,0.5522584033613445) 81%);
 }
 
 .card__pricing-table--green{
-    background: rgb(141,2,215);
-    background: linear-gradient(90deg, rgba(141,2,215,0.6783088235294117) 0%, rgba(0,200,255,0.5522584033613445) 81%);
-} */
+    background: rgb(2,86,215);
+    background: linear-gradient(90deg, rgba(2,86,215,0.6783088235294117) 0%, rgba(0,255,48,0.5522584033613445) 81%);
+}
