@@ -1,0 +1,21 @@
+:root{
+    ---violet: hsl(257, 40%, 49%);
+    --soft-magenta: hsl(300, 69%, 71%);
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+*{
+    margin: 0;
+}
+
+header{
+    background-color:var(---violet);
+    height: 100px;
+    padding: 20px;
+}
+
+body{
+    background-color: var(---violet);
+}
+
